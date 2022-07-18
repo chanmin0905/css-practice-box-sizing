@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <title>CSS</title>
+    <style>
+      body {
+        margin: 0px;
+      }
+      div {
+        margin: 20px;
+        padding: 20px;
+        border: 20px solid #dddddd;
+        width: 500px;
+      }
+      .contentBox {
+        box-sizing: content-box;
+      }
+      .borderBox {
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="contentBox">
+      <p>content-box</p>
+    </div>
+    <div class="borderBox">
+      <p>border-box</p>
+    </div>
+  </body>
+</html>
